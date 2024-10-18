@@ -1,0 +1,115 @@
+/* Reset básico para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Estilos para el contenedor principal */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ejemplo de encabezado */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  background-color: #c4c4c4;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+/* titulo en tamaño h2 */
+h2{
+  font-size: 1em;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Estilos para párrafos */
+p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+
+
+/* Enlaces estilo botón */
+a {
+  max-width: 1200px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+
+}
+
+
+
+/* Listas */
+li {
+  border: solid 1px rgb(193, 193, 193);
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+  list-style-type: none; 
+  margin-bottom: 0;
+}
+
+/* Propiedades de la imagen */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    -webkit-font-size: 2em; 
+    -moz-font-size: 2em;
+    font-size: 2em; 
+  }
+
+  h2 {
+    -webkit-font-size: 1.3em; 
+    -moz-font-size: 1.3em; 
+    font-size: 1.3em;
+  }
+
+  p {
+    -webkit-font-size: 1em; 
+    -moz-font-size: 1em; 
+    font-size: 1em;
+  }
+
+  a {
+    -webkit-font-size: 0.9em; 
+    -moz-font-size: 0.9em;
+    font-size: 0.9em; 
+  }
+
+  li {
+    padding: 8px 15px; 
+  }
+}

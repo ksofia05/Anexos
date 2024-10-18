@@ -1,0 +1,349 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+header, nav, section, article, footer{
+    border-radius: 10px;
+    padding: 15px;
+    /*border: solid 2px black;*/
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(205,180,219);
+    background: linear-gradient(0deg, rgba(205,180,219,1) 20%, rgba(162,210,255,1) 64%, rgba(189,224,254,1) 100%);
+    font-family: 'Tokyo', Arial, sans-serif;
+    background: #F2E0C9;
+    margin: 0;
+    padding: 0;
+}
+
+div.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    background:  #ffffff62;
+    width: 100%;
+    float: center;
+    overflow: hidden;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    float: left;
+    width: 27%;
+    margin-left: 5%;
+    background-color: #ffffff62;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav h1{
+    text-align: start;
+}
+
+/* para que sea responsive height  */
+section{
+    height: 600px;
+    width: 62%;
+    float: right;
+    overflow: hidden;
+    background-color: #ffffff62;
+    margin-right: 5%;
+}
+
+/* section h1{
+
+} */
+
+footer{
+    height: 60px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+
+header, footer, article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+    width: 90%;
+    float: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Londrina Sketch', cursive;
+    text-align: center;
+    padding-right: 10px;
+    font-family: 'Droid Serif', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+h1{
+    font-size: 30px;
+    text-shadow: 0 2px 0 #000000;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+header h1{
+    font: bold;
+    font-size: 40px;
+    margin-top: 7%;
+    float: left;
+}
+
+header img{
+    float: right;
+    height: 100%;
+    margin-right: 5%;
+    -webkit-transition-delay: os;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-property: all;
+}
+
+footer img{
+    float: left;
+    height: 100%;
+    margin-right: 20%;
+}
+
+.logo {
+    max-width: 100px;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateX(-10px) scale(1.1) rotate(-5deg);
+}
+
+nav ul {
+    display: block;
+    display: block ;
+    list-style-type: none;
+    margin-left: 0;
+    padding-right: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    margin: 15px;
+}
+
+/* navegacion */
+
+/* NAVEGACION */
+li a {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: 'caviar_dreamsregular', sans-serif;
+    margin-top: 7%;
+    width: 80%;
+    padding: 5% 15%;
+    color: #000000;
+    text-decoration: none;
+
+    /* Fondo con gradiante */
+    background: -moz-linear-gradient(center top, #A2D2FF 0%, #BDE0FE 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A2D2FF), color-stop(100%, #BDE0FE));
+    
+    /* Borde redondeado en esquinas opuestas */
+    -moz-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 20px 0 20px 0;
+    border-radius: 20px 0 20px 0;
+
+    /* Sombreados */
+    text-shadow: 1px 1px 1px #A2D2FF;
+    -moz-box-shadow: 0px 6px 0 #FFC8DD;
+    -webkit-box-shadow: 0px 6px 0 #FFC8DD;
+    box-shadow: 0px 6px 0 #FFC8DD;
+}
+
+li a:hover {
+    /* Cambiar bordes en esquinas opuestas */
+    -moz-border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+    border-radius: 0 20px 0 20px;
+
+    /* Cambiar colores de fondo y sombra */
+    background: -moz-linear-gradient(center top, #FFAFCC 0%, #FFC8DD 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFAFCC), color-stop(100%, #FFC8DD));
+    -moz-box-shadow: 0px 6px 0 #CDB4DB;
+    -webkit-box-shadow: 0px 6px 0 #CDB4DB;
+    box-shadow: 0px 6px 0 #CDB4DB;
+    color: #000000; /* Cambié el color de texto a negro para mejor contraste */
+}
+
+li a:active {
+    /* Efecto de movimiento */
+    position: relative;
+    top: 3px;
+
+    /* Efecto de hundimiento */
+    -moz-box-shadow: 0px 3px 0 #BDE0FE;
+    -webkit-box-shadow: 0px 3px 0 #BDE0FE;
+    box-shadow: 0px 3px 0 #BDE0FE;
+
+    /* Invertir degradado */
+    background: -moz-linear-gradient(center top, #FFC8DD 0%, #FFAFCC 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFC8DD), color-stop(100%, #FFAFCC));
+    -moz-box-shadow: 0px 3px 0 #CDB4DB;
+    -webkit-box-shadow: 0px 3px 0 #CDB4DB;
+    box-shadow: 0px 3px 0 #CDB4DB;
+}
+
+
+header img:hover{
+    /* Se cambian tres propiedades */
+    height: 120%;
+    margin-right: 15%;
+
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+    nav ul li a:hover {
+        background-color: #8d00f263;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    article {
+        background: #ffffff62;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    footer {
+        background-color: #ffffff62;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    
+    @media screen and (max-width: 480px){
+        /* Eliminar margenes Laterales */
+        div.contenedor{
+            width: 100%;
+        }    
+        /* Modificaciones y reorganizacion*/
+        header, nav, section, footer, article{
+            float: left;
+            width: 95%;
+            margin-left: 3%;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            padding: 5px;
+        }
+        header{
+            height: 60px;
+        }
+        footer{
+            height: 30px;
+        }
+        /* Tamaños y Fuentes */
+        h1{
+            font-size: 17px;
+            text-shadow: 0 0 0;/* eliminar la sombra */
+        }
+        h2{
+            font-size: 14px;
+        }
+        header h1{
+            font-size: 16px;
+            margin-top: 5%;
+            
+        }
+        p{
+            font-size: 13px;
+            line-height: 1.2rem;
+        }
+        /* Botones */
+        li a{
+            font-size: .9rem;
+            margin-top: 0px;
+            margin-left: 2px;
+            float: left;
+            width: 23%;
+            padding: 2px 4px;
+            margin-bottom: 3px;
+    
+            /* Borde redondeado en esquinas opuestas */
+            -moz-border-radius: 17px 0 17px 0;
+            -webkit-border-radius:17px 0 17px 0;
+        }
+        /* Logo principal */
+        header img{
+            margin-right: 2%;
+        }
+        header img:hover{
+            margin-right: 10%;
+        }
+    }
+
+ body{
+    background: rgb(205,180,219);
+    background: linear-gradient(0deg, rgba(205,180,219,1) 20%, rgba(162,210,255,1) 64%, rgba(189,224,254,1) 100%);
+ }
+
+    
